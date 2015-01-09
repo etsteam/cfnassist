@@ -83,8 +83,8 @@
                     <archive>
                         <manifest>
                             <mainClass>tw.com.commandline.Main</mainClass>
-                            <!--<addClasspath>true</addClasspath>-->
-                            <!--<classpathPrefix>lib</classpathPrefix>-->
+                            <addClasspath>true</addClasspath>
+                            <classpathPrefix>lib</classpathPrefix>
                         </manifest>
                     </archive>
                     <excludes>
