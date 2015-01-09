@@ -13,3 +13,10 @@ junit
 /build
 
 /bin
+
+# IntelliJ Idea
+.idea
+*.iml
+
+# Test outputs
+*.dot

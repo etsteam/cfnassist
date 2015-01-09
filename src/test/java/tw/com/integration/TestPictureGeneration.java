@@ -58,7 +58,7 @@ public class TestPictureGeneration {
 
 	@Test
 	public void shouldGenerateDiagramFromCurrentAccountVPCs() throws IOException, CfnAssistException {
-		Path folder = Paths.get(".").toAbsolutePath();
+		Path folder = Paths.get("").toAbsolutePath();
 		Recorder recorder = new FileRecorder(folder);
 		
 		AmazonVPCFacade awsFacade = new AmazonVPCFacade(cloudRepository, elbRepository, rdsClient);

@@ -61,7 +61,7 @@ public class TestDiagramCreator extends EasyMockSupport {
 	@Test
 	public void invokeDiagramCreationWithRealRecorder() throws IOException, CfnAssistException {
 		
-		Recorder realRecorder = new FileRecorder(Paths.get("."));
+		Recorder realRecorder = new FileRecorder(Paths.get(""));
 		DiagramCreator creator = new DiagramCreator(awsFacade);
 
 		replayAll();

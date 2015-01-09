@@ -1,7 +1,6 @@
-package tw.com.unit;
+package tw.com.pictures;
 
 import tw.com.exceptions.CfnAssistException;
-import tw.com.pictures.ChildDiagram;
 import tw.com.pictures.dot.Recorder;
 
 public class TemplatedChildDiagram<T extends ChildDiagram> implements ChildDiagram {

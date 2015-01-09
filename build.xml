@@ -131,7 +131,7 @@
 	        <mkdir dir="dist/bin"/>
 	        <mkdir dir="dist/bin/lib"/>
 	    	<mkdir dir="dist/bin/conf"/>
-	        <copy file="src/cfnassist.sh" todir="dist/bin"/>
+	        <copy file="src/main/resources/cfnassist.sh" todir="dist/bin"/>
   			<symlink link="dist/bin/cfnassist" resource="./cfnassist.sh"/>
 			<chmod file="dist/bin/cfnassist.sh" perm="700"/>
 			<chmod file="dist/bin/cfnassist" perm="700"/>
@@ -154,7 +154,7 @@
 				  <include name="**/*LICENSE.txt"/>
 				</fileset>
 			</copy>
-	    	<copy file="conf/logback.xml" todir="dist/bin/conf"/>
+	    	<copy file="src/main/resources/logback.xml" todir="dist/bin/conf"/>
 	    	<copy file="testAntTasks.xml" tofile="dist/exampleAntTasks.xml"/>
 	    	<copy file="README.md" todir="dist"/>
 	</target>

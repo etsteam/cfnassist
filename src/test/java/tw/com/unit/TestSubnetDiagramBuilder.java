@@ -9,6 +9,7 @@ import org.junit.runner.RunWith;
 import tw.com.VpcTestBuilder;
 import tw.com.exceptions.CfnAssistException;
 import tw.com.pictures.NetworkChildDiagram;
+import tw.com.pictures.SecurityChildDiagram;
 import tw.com.pictures.SubnetDiagramBuilder;
 import tw.com.pictures.VPCDiagramBuilder;
 
